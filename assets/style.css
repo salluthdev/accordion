@@ -25,3 +25,8 @@ body
 	position: relative;
 	margin: 10px 20px;
 }
+.accordion .content_box .label
+{
+	position: relative;
+	padding: 10px;
+}
