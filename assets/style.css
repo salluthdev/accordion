@@ -46,8 +46,10 @@ body
 .accordion .content_box .content
 {
 	position: relative;
-	padding: 10px;
+	
 	background: #fff;
 	height: 0;
 	overflow: hidden;
+	overflow-y: auto;
+	transition: 0.5s;
 }
