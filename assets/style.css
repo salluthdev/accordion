@@ -52,3 +52,7 @@ body
 	overflow-y: auto;
 	transition: 0.5s;
 }
+.accordion .content_box.active .content
+{
+	height: 150px;
+}
