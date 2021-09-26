@@ -18,5 +18,10 @@ body
 }
 .accordion
 {
-	width: 800px;
+	max-width: 800px;
+}
+.accordion .content_box
+{
+	position: relative;
+	margin: 10px 20px;
 }
