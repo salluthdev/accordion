@@ -55,4 +55,5 @@ body
 .accordion .content_box.active .content
 {
 	height: 150px;
+	padding: 10px;
 }
