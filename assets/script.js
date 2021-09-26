@@ -1,0 +1,1 @@
+const accordion = document.getElementsByClassName('content_box');
