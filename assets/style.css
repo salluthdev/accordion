@@ -43,6 +43,10 @@ body
 	transform: translateY(-50%);
 	font-size: 1.5em;
 }
+.accordion .content_box.active .label::before
+{
+	content: '-';
+}
 .accordion .content_box .content
 {
 	position: relative;
