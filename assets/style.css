@@ -34,3 +34,8 @@ body
 	color: #fff;
 	cursor: pointer;
 }
+.accordion .content_box .label::before
+{
+	content: '+';
+	position: absolute;
+}
