@@ -51,6 +51,7 @@ body
 .accordion .content_box.active .label::before
 {
 	content: '';
+	transform: translateY(-50%) rotate(0.5turn);
 }
 .accordion .content_box .content
 {
