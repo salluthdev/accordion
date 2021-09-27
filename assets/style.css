@@ -36,16 +36,21 @@ body
 }
 .accordion .content_box .label::before
 {
-	content: '+';
+	content: '';
 	position: absolute;
 	top: 50%;
 	right: 20px;
 	transform: translateY(-50%);
-	font-size: 1.5em;
+	width: 12px;
+  	height: 6px;
+	background-image: url('data:image/svg+xml;utf8,<svg width="100" height="50" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 100,0 50,50" style="fill:%23FFFFFF99;" /></svg>');
+  	background-size: contain;
+  	background-repeat: no-repeat;
+  	transition: transform 0.4s;
 }
 .accordion .content_box.active .label::before
 {
-	content: '-';
+	content: '';
 }
 .accordion .content_box .content
 {
